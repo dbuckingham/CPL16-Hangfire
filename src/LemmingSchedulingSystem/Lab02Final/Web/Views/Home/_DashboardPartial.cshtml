@@ -1,0 +1,82 @@
+﻿@model Web.Models.DashboardViewModel
+    
+<div class="row">
+    <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">Hello Jobs</div>
+            <div class="panel-body">
+                <div class="col-md-6">
+                    <img src="~/images/Lemmings/HelloLemming.png" class="center-block img-responsive" />
+                </div>
+                <div class="col-md-6 text-right center-block">
+                    <span class="statistic">@Model.SayHelloJobsRun</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">Home Jobs</div>
+            <div class="panel-body">
+                <div class="col-md-6">
+                    <img src="~/images/Lemmings/HomeBuilderLemming.png" class="center-block img-responsive" />
+                </div>
+                <div class="col-md-6 text-right center-block">
+                    <span class="statistic">@Model.BuildHouseJobsRun</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">Painting Jobs</div>
+            <div class="panel-body">
+                <div class="col-md-6">
+                    <img src="~/images/Lemmings/PainterLemming.png" class="center-block img-responsive" />
+                </div>
+                <div class="col-md-6 text-right center-block">
+                    <span class="statistic">@Model.PaintingJobsRun</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">Plumbing Jobs</div>
+            <div class="panel-body">
+                <div class="col-md-6">
+                    <img src="~/images/Lemmings/PlumberLemming.png" class="center-block img-responsive" />
+                </div>
+                <div class="col-md-6 text-right center-block">
+                    <span class="statistic">@Model.PlumbingJobsRun</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">Sales Jobs</div>
+            <div class="panel-body">
+                <div class="col-md-6">
+                    <img src="~/images/Lemmings/SalesLemming.png" class="center-block img-responsive" />
+                </div>
+                <div class="col-md-6 text-right center-block">
+                    <span class="statistic">@Model.SalesJobsRun</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">Welding Jobs</div>
+            <div class="panel-body">
+                <div class="col-md-6">
+                    <img src="~/images/Lemmings/WelderLemming.png" class="center-block img-responsive" />
+                </div>
+                <div class="col-md-6 text-right center-block">
+                    <span class="statistic">@Model.WeldingJobsRun</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
